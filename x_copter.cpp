@@ -212,8 +212,8 @@ PLUGIN_API int XPluginStart(char *outName, char *outSig, char *outDesc)
 {
     // set plugin info
     strcpy(outName, NAME);
-    strcpy(outSig, "de.bwravencl."NAME_LOWERCASE);
-    strcpy(outDesc, NAME" let's you fly dynamic helicopter missions!");
+    strcpy(outSig, "de.bwravencl." NAME_LOWERCASE);
+    strcpy(outDesc, NAME " let's you fly dynamic helicopter missions!");
 
     // initialize random seed
     srand(time(NULL));
