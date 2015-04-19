@@ -55,13 +55,13 @@ static float missionStartTime = 0.0f;
 static XPLMNavRef pickUpLocation = XPLM_NAV_NOT_FOUND, dropOffLocation = XPLM_NAV_NOT_FOUND;
 
 // converts from degrees to radians
-inline double DegreesToRadians(double degrees)
+inline static double DegreesToRadians(double degrees)
 {
     return degrees * (M_PI / 180.0);
 }
 
 // converts from degrees to radians
-inline double RadiansToDegress(double radians)
+inline static double RadiansToDegress(double radians)
 {
     return radians * (180.0 / M_PI);
 }
